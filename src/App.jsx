@@ -1,24 +1,24 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+/* eslint-disable no-unused-vars */
+import { Route } from 'react-router-dom';
+
 
 // pages
 import Login from './pages/login';
+import Aprendiz from './pages/aprendiz';
 
 function App() {
-  
+
 
   return (
-    <>
-      <div>gggggggggggggg</div>
-      <BrowserRouter>
-        <Switch>
+    <div>
 
-          <Route  path="/" elementt={<Login/>} />
-          <Route></Route>
-          <Route></Route>
+      <p>Lorem ipsum dolor sit bbvv.</p>
 
-        </Switch>
-      </BrowserRouter>
-    </>
+      {/* <Route path="/" elementt={<Login />} />
+        <Route></Route>
+        <Route></Route> */}
+
+    </div>
   )
 }
 
