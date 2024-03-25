@@ -1,25 +1,23 @@
-/* eslint-disable no-unused-vars */
-import { Route } from 'react-router-dom';
+// Importanción de dependencias:
+import { Route, Routes} from "react-router-dom";
+import Inicio_Aprendiz from "./pages/Aprendiz/pages/inicio_aprendiz";
+import Objetos_Aprendiz from "./pages/Aprendiz/pages/objetos_aprendiz";
 
 
-// pages
-import Login from './pages/login';
-import Aprendiz from './pages/aprendiz';
-
-function App() {
 
 
+const App = () => {
   return (
-    <div>
+    <>
+     
 
-      <p>Lorem ipsum dolor sit bbvv.</p>
+      <Routes>
+        <Route path="/" element={<Inicio_Aprendiz/>}></Route>
+        <Route path="/objetos_aprendiz" element={<Objetos_Aprendiz/>}></Route>
+      </Routes>
 
-      {/* <Route path="/" elementt={<Login />} />
-        <Route></Route>
-        <Route></Route> */}
+    </>
+  );
+};
 
-    </div>
-  )
-}
-
-export default App
+export default App;
