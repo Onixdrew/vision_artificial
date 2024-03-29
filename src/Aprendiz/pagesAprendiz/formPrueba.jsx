@@ -1,4 +1,4 @@
-const Prueba = () => {
+const Form_Objeto = () => {
   return (
     <div>
       <div className="md:w-[25vw]   bg-gray-100 dark:bg-slate-800 relative rounded-lg p-4 md:p-10 shadow-lg ">
@@ -1163,4 +1163,4 @@ const Prueba = () => {
   );
 };
 
-export default Prueba;
+export default Form_Objeto;
