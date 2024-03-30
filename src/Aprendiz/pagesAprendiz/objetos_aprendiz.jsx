@@ -2,6 +2,7 @@ import { PiProhibitBold } from "react-icons/pi";
 import { TiDelete } from "react-icons/ti";
 import Form_Objeto from "./formPrueba";
 import Sidebar2 from "../../components/Sidebar/sideBar2";
+import Icono_Perfil from "../components/icono_Perfil";
 
 const Objetos_Aprendiz = () => {
   return (
@@ -12,7 +13,7 @@ const Objetos_Aprendiz = () => {
 
       <div className="ml-[22vw] absolute w-[77%]">
         
-
+        <Icono_Perfil></Icono_Perfil>
         <div className=" flex md:mt-[10vh]  space-x-4 ">
           <div className=" space-y-4 md:ml-[4vw] md:mt-[10vh]">
             <PiProhibitBold className="text-[8em] md:ml-[9vw] text-red-600" />
