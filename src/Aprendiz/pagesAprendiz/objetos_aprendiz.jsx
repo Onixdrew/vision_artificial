@@ -11,14 +11,12 @@ const Objetos_Aprendiz = () => {
     <div>
       <NavbarAprendiz></NavbarAprendiz>
 
-      <div className="">
-        
-        
-        
-        <div className="flex mx-auto">
-          <FormObjetos></FormObjetos>
-          <img className='' src="https://img.freepik.com/fotos-premium/vector-concepto-espacio-trabajo-tecnologia-d-isometrica-plana_662214-330647.jpg" alt="" />
+      <div className="flex flex-col">
+         
+        <div className="opacity-75 pl-[5vw] ml-[10vw] w-[50vw] rounded-lg py-[2%] mt-[10vh]  bg-[url(https://img.freepik.com/fotos-premium/vector-concepto-espacio-trabajo-tecnologia-d-isometrica-plana_662214-330647.jpg)] "> 
+          <FormObjetos className=''></FormObjetos>
         </div>
+        
         {/* <div className="flex flex-col md:ml-[9vw] md:mt-[17vh] md:w-[70%]  border-4 ">
           <h2 className="md:ml-[20vw] md:mb-[5vh] text-2xl">Mis objetos</h2>
           <div className="flex gap-10  p-5">
@@ -92,7 +90,7 @@ const Objetos_Aprendiz = () => {
           </div>
         </div> */}
 
-        <footer class="  text-center bg-white dark:bg-gray-900 mt-[17vh]">
+        <footer class="  text-center bg-cyan-900 dark:bg-gray-900 mt-[17vh]">
                 <div class="mx-auto w-full max-w-screen-xl">
                   <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                     <div>
@@ -193,7 +191,7 @@ const Objetos_Aprendiz = () => {
                     </div>
                   </div>
                 </div>
-            </footer>
+        </footer>
 
       </div>
     </div>
