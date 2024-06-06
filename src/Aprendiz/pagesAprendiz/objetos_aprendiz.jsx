@@ -3,29 +3,23 @@ import { TiDelete } from "react-icons/ti";
 import Form_Objeto from "./formPrueba";
 import Sidebar2 from "../../components/Sidebar/sideBar2";
 import Icono_Perfil from "../components/icono_Perfil";
+import NavbarAprendiz from "../components/navbar";
+import FormObjetos from "./formObjetos";
 
 const Objetos_Aprendiz = () => {
   return (
     <div>
-      <div className="ml-5 fixed mt-[2.5vh]">
-        <Sidebar2></Sidebar2>
-      </div>
+      <NavbarAprendiz></NavbarAprendiz>
 
-      <div className="ml-[22vw] absolute w-[77%]">
+      <div className="">
         
-        <Icono_Perfil></Icono_Perfil>
-        <div className=" flex md:mt-[10vh]  space-x-4 ">
-          <div className=" space-y-4 md:ml-[4vw] md:mt-[10vh]">
-            <PiProhibitBold className="text-[8em] md:ml-[9vw] text-red-600" />
-            <p className="font-bold text-2xl md:w-[35vw] text-red-600 ">
-              Prohibido el ingreso de armas o cualquier elemento que atente
-              contra la integridad de la cumunidad SENA
-            </p>
-          </div>
-          <Form_Objeto></Form_Objeto>
-
+        
+        
+        <div className="flex mx-auto">
+          <FormObjetos></FormObjetos>
+          <img className='' src="https://img.freepik.com/fotos-premium/vector-concepto-espacio-trabajo-tecnologia-d-isometrica-plana_662214-330647.jpg" alt="" />
         </div>
-        <div className="flex flex-col md:ml-[9vw] md:mt-[17vh] md:w-[70%]  border-4 ">
+        {/* <div className="flex flex-col md:ml-[9vw] md:mt-[17vh] md:w-[70%]  border-4 ">
           <h2 className="md:ml-[20vw] md:mb-[5vh] text-2xl">Mis objetos</h2>
           <div className="flex gap-10  p-5">
             <span className="border bg-gray-700 rounded-xl hover:-translate-y-1 hover:scale-110 border-black space-x-5 flex flex-col  w-[15vw] text-white">
@@ -96,7 +90,7 @@ const Objetos_Aprendiz = () => {
               </div>
             </span>
           </div>
-        </div>
+        </div> */}
 
         <footer class="  text-center bg-white dark:bg-gray-900 mt-[17vh]">
                 <div class="mx-auto w-full max-w-screen-xl">

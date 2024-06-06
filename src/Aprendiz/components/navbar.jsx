@@ -13,16 +13,15 @@ export default function NavbarAprendiz() {
         <NavbarItem >
           <Link href="#" className="text-black text-[1.5em]">
             inicio
-            inicio
           </Link>
         </NavbarItem>
         <NavbarItem >
-          <Link href="#" className="text-black text-[1.5em]"  >
+          <Link href="/objetos_aprendiz" className="text-black text-[1.5em]"  >
             Objetos
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" className="text-black text-[1.5em]">
+          <Link href="/historial" className="text-black text-[1.5em]">
             Historial
           </Link>
         </NavbarItem>
@@ -35,11 +34,13 @@ export default function NavbarAprendiz() {
               isBordered
               as="button"
               className="transition-transform ms-[40vw]"
-              color="secondary"
+              color="primary"
               name="Jason Hughes"
               size="lg"
+              
               src="https://media.istockphoto.com/id/913062404/es/foto/cara-de-hombre-de-negocios-contra-el-fondo-blanco.jpg?s=612x612&w=0&k=20&c=KWNbHS35bjiMRjHFXg5FLCMNOpBI7rTEAfyds_3XQ-8="
             />
+            
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
             <DropdownItem key="profile" className="h-14 gap-2">
